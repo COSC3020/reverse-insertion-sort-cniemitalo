@@ -29,10 +29,14 @@ In the lectures, we covered that insertion sort has best-case time complexity of
 $\Theta(n)$ and worst-case time complexity of $\Theta(n^2)$. What is the
 average-case time complexity ($\Theta$)?
 
-Hint: Think about what happens in each iteration of the loop, and how often the
-loop is executed. Keep in mind that for asymptotic analysis we don't care about
+Hint: Think about what happens in each iteration of the loop, and how often the loop is executed. Keep in mind that for asymptotic analysis we don't care about
 constant factors.
 
 Describe your reasoning and the conclusion you've come to. Your reasoning is
 most important -- you can easily find the answer, but you need to demonstrate
 that you've understood the concept. Add your answer to this markdown file.
+
+The average-case time complexity of insertion sort is $\Theta(n^2)$, because the average case for insertion sort will run the nested loop multiple times. The only time it wouldn't run the second loop at least once is the best case time complexity, which is why it runs in linear time. While the average case won't run the inner loop as many times as the worse case scenario, it still has a quadratic time complexity. 
+
+## Sources and Plagiarism Statement
+I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.
