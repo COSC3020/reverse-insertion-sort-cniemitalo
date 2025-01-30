@@ -36,9 +36,8 @@ Describe your reasoning and the conclusion you've come to. Your reasoning is
 most important -- you can easily find the answer, but you need to demonstrate
 that you've understood the concept. Add your answer to this markdown file.
 
-# My Answer
-
-The average-case time complexity of insertion sort is $\Theta(n^2)$, because the average case for insertion sort will run the nested loop multiple times. The only time it wouldn't run the second loop at least once is the best case time complexity, which is why it runs in linear time. While the average case won't run the inner loop as many times as the worse case scenario, it still has a quadratic time complexity. 
+### My Answer
+The average-case time complexity of insertion sort is $\Theta(n^2)$, because the average case for insertion sort will run the nested loop multiple times. The only time it wouldn't run the second loop at least once is the best case scenario, which is why it runs in linear time. While the average case won't run the inner loop as many times as the worse case scenario, it still has a quadratic time complexity. 
 
 ## Sources and Plagiarism Statement
 I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.
